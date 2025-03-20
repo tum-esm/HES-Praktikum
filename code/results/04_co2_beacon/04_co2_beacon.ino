@@ -37,7 +37,7 @@ const uint16_t rgb_blink_duration = 50; //muss kleiner als das Messinterval sein
 const char filename = *"/sensor_data.json";
 
 //WiFi settings
-const char *ssid = "iPhone (2)";
+const char *ssid = "iPhone von Daniel";
 const char *password = "1212abab";
 
 const char *ntpServer1 = "pool.ntp.org";
