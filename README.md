@@ -15,3 +15,5 @@ Das Praktikum wird in 2er-Gruppen durchgeführt, und jede Gruppe benötigt einen
 
 
 
+### Treiber
+https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
