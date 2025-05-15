@@ -14,6 +14,5 @@ Das Praktikum wird in 2er-Gruppen durchgeführt, und jede Gruppe benötigt einen
 - Sieh dir zur Einführung und Installation von Jupyter [dieses Video](https://youtu.be/suAkMeWJ1yE?si=K90X1-_5LGSxWY5A) an.
 
 
-
-### Treiber
-https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+> Sollte der Microcontroller nicht erkannt oder kein Port in der Arduino IDE angezeigt werden, ist es sehr wahrscheinlich, dass der notwendige Treiber fehlt. 
+Unter [diesem Link](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads) findest du den richtigen Treiber zur Installation und Fehlerbehebung.
