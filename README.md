@@ -15,4 +15,4 @@ Das Praktikum wird in 2er-Gruppen durchgeführt, und jede Gruppe benötigt einen
 
 
 > Sollte der Microcontroller nicht erkannt oder kein Port in der Arduino IDE angezeigt werden, ist es sehr wahrscheinlich, dass der notwendige Treiber fehlt. 
-Unter [diesem Link](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads) findest du den richtigen Treiber zur Installation und Fehlerbehebung.
+Unter [diesem Link](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads) findest du den richtigen Treiber zur Installation und Fehlerbehebung. Lade **CP210x VCP Windows**, entpacke die zip Datei und installiere den Treiber auf deinem Computer, wenn du einen Windows PC besitzt.
