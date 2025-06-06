@@ -35,10 +35,8 @@ void setup()
   digitalWrite(SUNRISE_EN, HIGH);
   delay(50); //kurz warten bis Sensor aktiviert ist
 
-  // Sensor initialisieren
+  // Sensor initialisieren und neue Konfiguration aktivieren
   init_sunrise(SUNRISE_ADDR, measPeriod, measNum, false);
-
-  //neue Konfiguration aktivieren
   digitalWrite(SUNRISE_EN, LOW);
   delay(50); 
   digitalWrite(SUNRISE_EN, HIGH);

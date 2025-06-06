@@ -50,7 +50,10 @@ void setup()
   // SD-Karte initialisieren
 
   //TODO
-  // CO2 Sensor initialisieren
+  //Enable Pin für Sunrise Sensor auf Output und HIGH setzen
+
+  //TODO
+  // Sensor initialisieren und neue Konfiguration aktivieren
 
   //TODO
   // Tempertur und Luftfeuchtigkeitssensor initialisieren

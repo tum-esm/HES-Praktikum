@@ -13,8 +13,8 @@
 
 #include "sunrise.h"
 
-#define I2C_SDA 1
-#define I2C_SCL 0
+#define I2C_SDA 0
+#define I2C_SCL 1
 
 /* Amount of wakeup attempts before time-out */
 const int       ATTEMPTS                 = 5;
