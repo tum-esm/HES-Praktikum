@@ -73,9 +73,9 @@ void loop() {
   float temperature, humidity, co2 = 0;
 
   // Temperatur und Luftfeuchtigkeitsmessung
-  if(sensor.startMeasurementReady(/* crcEn = */true)){
-    temperature = sensor.getTemperature_C();
-    humidity = sensor.getHumidity_RH();
+  if(aht20.startMeasurementReady(/* crcEn = */true)){
+    temperature = aht20.getTemperature_C();
+    humidity = aht20.getHumidity_RH();
   }
   // CO2 Messung
   co2 = read_sensor_measurements(SUNRISE_ADDR);
