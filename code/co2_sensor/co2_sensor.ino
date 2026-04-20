@@ -57,7 +57,9 @@ void loop() {
   uint16_t co2_value = 0;
   /* Read measurements */
   co2_value = read_sensor_measurements(SUNRISE_ADDR);
-  Serial.println(co2_value);
+  Serial.print("CO2:");
+  Serial.print(co2_value);
+  Serial.println(" ppm");
 
   // Warten und blinken...
   delay(measurementInterval - rgb_blink_duration);
