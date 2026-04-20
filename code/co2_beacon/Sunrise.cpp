@@ -11,7 +11,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 
-#include "sunrise.h"
+#include "Sunrise.h"
 
 #define I2C_SDA 0
 #define I2C_SCL 1
